@@ -1,0 +1,36 @@
+@import "variables";    
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+    // overflow: hidden;
+}
+body{
+    line-height: 1;
+    font-family: $font;
+    background-color: #fff9ec;
+}
+input{
+    border: none;
+}
+.title{
+    color:#333333;
+    font-size:24px;
+    line-height:36px;
+    margin:0px 0px 20px;
+    text-align:center;
+}
+@media screen and (max-width: 767.98px) {
+    *{
+        
+        .title{
+            font-size: 10px;
+            margin: 0 0 10px;
+        }
+        
+    }
+}

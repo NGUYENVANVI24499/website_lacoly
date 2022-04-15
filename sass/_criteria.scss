@@ -1,0 +1,48 @@
+.criteria{
+    
+    margin-bottom: 40px;
+    background: url("/assets/img/bgsevi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    &-container{
+        height: 257px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 1;
+        
+    }
+    &-name{
+        color: #f0bb55;
+        font-size: 18px;
+        font-weight:700;
+        line-height:calc(33/18);
+        font-weight: bold;
+        letter-spacing: 1;
+    }
+    &-title{
+        color: #666666;
+        font-size: 12px;
+        line-height: calc(18/12);
+        letter-spacing: 1;
+    }
+    &-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px 0;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .criteria-name{
+        font-size: $fontsize;
+    }
+    .criteria-title{
+        font-size: $fontsize;
+    }
+    .criteria-list{
+        gap: 0;
+    }
+}
